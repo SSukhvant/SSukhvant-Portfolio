@@ -1,0 +1,23 @@
+.app__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../assets/Hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.app__header-intro {
+    flex: 1;
+    height: 100vh;
+    background: rgba(209, 214, 220, 0.9);
+    backdrop-filter: blur(4px);
+    z-index: 1;
+}
+
+.app__header-pic {
+    width: 25%;
+    height: 100vh;
+    background: transparent;
+}
