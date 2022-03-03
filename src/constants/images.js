@@ -23,9 +23,7 @@ import about02 from '../assets/about02.png';
 import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
 
-import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
-import logo from '../assets/logo.png';
 
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
@@ -34,12 +32,6 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
-import photo1 from '../assets/Photo1.jpg';
-import photo2 from '../assets/Photo2.jpg';
-import photo3 from '../assets/Photo3.jpg';
-import photo4 from '../assets/Photo4.jpg';
-import photo5 from '../assets/Photo5.jpg';
-import photo6 from '../assets/Photo6.jpg';
 import developer from '../assets/developer.png';
 
 export default {
@@ -66,9 +58,7 @@ export default {
   about02,
   about03,
   about04,
-  profile,
   circle,
-  logo,
   adidas,
   amazon,
   asus,
@@ -76,11 +66,5 @@ export default {
   nb,
   skype,
   spotify,
-  photo1,
-  photo2,
-  photo3,
-  photo4,
-  photo5,
-  photo6,
   developer
 };

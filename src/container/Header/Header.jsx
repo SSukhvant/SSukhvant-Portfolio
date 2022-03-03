@@ -24,17 +24,17 @@ const Header = () => (
       className="app__header-info"
     >
       <div className="app__header-badge">
-        <div className="badge-cmp app__flex">
+        <div className="badge-cmp app__bgwhite app__flex">
           <span>👋</span>
-          <div style={{ marginLeft: 20 }}>
-            <p className="p-text">Hello, I am</p>
+          <div className='badge-html' style={{ marginLeft: 20 }}>
+            <p className="p-text">Hello, I'm</p>
             <h1 className="head-text">Sukhvant</h1>
           </div>
         </div>
 
-        <div className="tag-cmp app__flex">
-          <p className="p-text">Web Developer</p>
-          <p className="p-text">Freelancer</p>
+        <div className="tag-cmp app__bgviolet text-white app__flex">
+          <p>WEB DEVELOPER</p>
+          <p>FREELANCER</p>
         </div>
       </div>
     </motion.div>

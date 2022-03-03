@@ -81,6 +81,18 @@
       font-size: 1.75rem;
     }
   }
+
+  .app__bgwhite{
+    background: var(--white-color);
+  }
+
+  .app__bgviolet{
+    background: #7442da;
+  }
+
+  .text-white {
+    color: var(--white-color);
+  }
   
   .bold-text {
     font-size: 1rem;
