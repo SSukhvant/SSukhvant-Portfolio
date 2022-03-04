@@ -9,17 +9,28 @@ const SocialMedia = () => (
       <BsGithub />
       </a>
     </div>
+
     <div>
+    <a href="https://www.linkedin.com/in/sukhvant-singh-11707506/" alt="Linkedin" target="_blank" rel="noreferrer">
     <BsLinkedin />
-  </div>
-    <div>
-      <BsTwitter />
+    </a>
     </div>
+
     <div>
-      <FaFacebookF />
+    <a href="https://twitter.com/ssukhvant_21" alt="Twitter" target="_blank" rel="noreferrer">
+    <BsTwitter />
+    </a>
     </div>
+
     <div>
-      <BsInstagram />
+    <a href="https://www.facebook.com/profile.php?id=100009763596747" alt="Facebook" target="_blank" rel="noreferrer">
+    <FaFacebookF />
+    </a>
+    </div>
+
+    <div>
+    <a href="https://www.instagram.com/ssukhvant/" alt="Instagram" target="_blank" rel="noreferrer">
+    <BsInstagram /></a>
     </div>
   </div>
 );
