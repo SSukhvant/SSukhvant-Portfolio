@@ -41,7 +41,7 @@ const Work = () => {
       <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>
 
       <div className="app__work-filter">
-        {['Web App', 'React JS', 'UI/UX', 'CPP', 'All'].map((item, index) => (
+        {['Web App', 'React JS', 'UI/UX Designs', 'CPP','IoT', 'All'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
@@ -111,5 +111,5 @@ const Work = () => {
 export default AppWrap(
   MotionWrap(Work, 'app__works'),
   'work',
-  'app__primarybg',
+  'app__whitebg',
 );
