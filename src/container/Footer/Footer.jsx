@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { send } from 'emailjs-com';
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { client } from '../../client';
@@ -33,6 +33,19 @@ const Footer = () => {
         setIsFormSubmitted(true);
       })
       .catch((err) => console.log(err));
+
+      send(
+        'service_ocxq8cc',
+        'template_2vblxix',
+        contact,
+        'NHaKqPCGdk50rNRGg'
+      )
+        .then((response) => {
+          console.log('SUCCESS!', response.status, response.text);
+        })
+        .catch((err) => {
+          console.log('FAILED...', err);
+        });
   };
 
   return (
@@ -41,12 +54,10 @@ const Footer = () => {
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
-          <img src={images.gmail} alt="email" />
-          <a href="mailto:sukhvantsingh2@gmail.com" className="p-text">sukhvantsingh2@gmail.com</a>
+          <a href="mailto:sukhvantsingh2@gmail.com" className="p-text"><img src={images.gmail} alt="email" /></a>
         </div>
         <div className="app__footer-card">
-          <img src={images.whatsapp} alt="phone" />
-          <a href="tel:+919837428838" className="p-text">+91 9837428838</a>
+          <a href="https://wa.me/9837428838" className="p-text"><img src={images.whatsapp} alt="phone" /></a>
         </div>
       </div>
       {!isFormSubmitted ? (

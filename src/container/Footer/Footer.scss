@@ -11,13 +11,14 @@
   .app__footer-cards {
     width: 60%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 2rem;
     flex-wrap: wrap;
     margin: 4em 2rem 2rem;
   
     .app__footer-card {
-      min-width: 290px;
+      // min-width: 290px;
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
@@ -27,7 +28,7 @@
       padding: 1rem;
       border-radius: 10px;
       cursor: pointer;
-      background-color: #fef4f5;
+      background-color: transparent;
   
       transition: all 0.3s ease-in-out;
   
@@ -58,13 +59,13 @@
     }
   }
   
-  .app__footer-cards .app__footer-card:last-child {
-    background-color: #f2f7fb;
-  }
+  // .app__footer-cards .app__footer-card:last-child {
+  //   background-color: #f2f7fb;
+  // }
   
-  .app__footer-cards .app__footer-card:last-child:hover {
-    box-shadow: 0 0 25px #f2f7fb;
-  }
+  // .app__footer-cards .app__footer-card:last-child:hover {
+  //   box-shadow: 0 0 25px #f2f7fb;
+  // }
   
   .app__footer-form {
     width: 60%;
