@@ -16,6 +16,7 @@ import developer from '../assets/developer.png';
 import gmail from '../assets/G.png';
 import whatsapp from '../assets/WhatsApp.png';
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   gmail,
   whatsapp,
